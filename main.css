@@ -163,10 +163,10 @@ nav ul li a {
 
   .bt5 {
     width: 10em;
-    color: white; 
+    color: black; 
     font-size: 0.875em;
     padding: 0.6em 0;
-    background-color: #5865F2; 
+    background-color: #fff; 
     border: none;
     border-radius: 1.25em;
     outline: none;
