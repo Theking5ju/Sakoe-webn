@@ -715,7 +715,7 @@ transition: 0.4s;
    
 }
 /*slide*/
-.bt5 {
+.bt {
     width: 12em;
     color: #000;
     font-size: 1em;
@@ -729,7 +729,7 @@ transition: 0.4s;
     transition: 0.3s ease;
 }
 
-.bt5:hover {
+.bt:hover {
     background-color: #333;
     color: #fff;
     transform: scale(1.05);
@@ -753,7 +753,7 @@ transition: 0.4s;
         max-width: 100%; 
     }
 
-    .bt5 {
+    .bt {
         width: 10em;
         font-size: 0.9em;
         padding: 0.8em 0;
@@ -761,7 +761,7 @@ transition: 0.4s;
 }
 
 
-.bt5{
+.bt{
     width: 11.25em;
         color: #000;
         font-size: 0.75em;
@@ -776,7 +776,7 @@ margin-top: 0.625em;
 transition: 0.4s;
  }
 
- .bt5:hover{
+ .bt:hover{
 transform: translate(-0.625em);
  }
  /* slides last row*/
