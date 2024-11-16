@@ -161,9 +161,14 @@ nav ul li a {
     transform: translateX(-0.5em);
     background-color: #f0f0f0; 
   }
-  
- 
-  .social-icon {
+  .bt2 ion-icon {
+    font-size: 1.25em; /* Icon size */
+    color: #5865F2; /* Discord brand color for icon */
+  }
+  .bt2 span {
+    font-size: 0.875em; /* Match provided font size */
+    font-weight: 600;
+  }
     text-decoration: none;
     margin-right: 0.5em;
     margin-top: 0.5em; 
