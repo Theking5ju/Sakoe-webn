@@ -83,10 +83,10 @@ img:hover {
         padding: 0 1em; 
     }
 
-    .bt4 {
-        width: 7em; 
+   .bt4 {
+        width: 10em; 
         font-size: 0.6em; 
-        padding: 0.7em 0;
+        padding: 0.9em 0.6em;
     }
 }
  /* nav potentially end*/
