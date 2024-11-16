@@ -193,7 +193,7 @@ nav ul li a {
   .bt5 ion-icon {
     font-size: 1.25em; 
     color: rgb(2, 2, 2);
-      transition: 0.3s ease;
+      transition: color 0.3s ease;
   }
 
   .bt5 span {
