@@ -142,33 +142,74 @@ nav ul li a {
   
  
   .bt2 {
-    width: 10em; 
-    color: #000;
+    width: 10em;
+    color: white; 
     font-size: 0.875em;
-    padding: 0.6em 0; 
-    background-color: #ffffff;
+    padding: 0.6em 0;
+    background-color: #5865F2; 
     border: none;
     border-radius: 1.25em;
     outline: none;
     cursor: pointer;
     font-weight: 600;
-    margin-top: 0.5em; 
+    margin-top: 0.5em;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em; 
   }
-  
+
+  .bt5 {
+    width: 10em;
+    color: white; 
+    font-size: 0.875em;
+    padding: 0.6em 0;
+    background-color: #5865F2; 
+    border: none;
+    border-radius: 1.25em;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 0.5em;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em; 
+  }
   .bt2:hover {
     transform: translateX(-0.5em);
-    background-color: #f0f0f0; 
+    background-color: #4752C4; 
   }
-  .bt2 ion-icon {
-    font-size: 1.25em; /* Icon size */
-    color: #5865F2; /* Discord brand color for icon */
+  .bt5:hover {
+    transform: translateX(-0.5em);
+    
   }
-  .bt2 span {
-    font-size: 0.875em; /* Match provided font size */
+  
+
+  .bt5 ion-icon {
+    font-size: 1.25em; 
+    color: rgb(2, 2, 2);
+  }
+
+  .bt5 span {
+    font-size: 1em;
     font-weight: 600;
   }
+  .bt2 ion-icon {
+    font-size: 1.25em; 
+    color: white;
+  }
+
+
+  .bt2 span {
+    font-size: 0.875em;
+    font-weight: 600;
+  }
+  .social-icon {
     text-decoration: none;
     margin-right: 0.5em;
     margin-top: 0.5em; 
