@@ -201,7 +201,9 @@ nav ul li a {
  
     }
    
-    
+    .section2 p9 {
+        display: none;
+    }
    
   }
   
