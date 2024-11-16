@@ -497,7 +497,7 @@ nav ul li a {
     text-align: justify;
 }
 
-.signals-row1 .bt2 {
+.signals-row1 .bt6 {
     width: auto;
     font-size: 1em; 
     color: #fff;
@@ -512,7 +512,7 @@ nav ul li a {
     margin-top: 1.5em; 
 }
 
-.signals-row1 .bt2:hover {
+.signals-row1 .bt6:hover {
     background-color: #3578e5;
     transform: translateY(-1px);
 }
