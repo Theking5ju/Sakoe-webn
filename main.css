@@ -76,6 +76,8 @@ img:hover {
         font-size: 0.65em; 
         padding: 0.8em 0; 
     }
+    
+
 }
 
 @media (max-width: 480px) {
@@ -88,6 +90,7 @@ img:hover {
         font-size: 0.6em; 
         padding: 0.9em 0.6em;
     }
+   
 }
  /* nav potentially end*/
 
@@ -163,10 +166,10 @@ nav ul li a {
 
   .bt5 {
     width: 10em;
-    color: black; 
+    color: rgb(0, 0, 0); 
     font-size: 0.875em;
     padding: 0.6em 0;
-    background-color: #fff; 
+    background-color: #ebebeb; 
     border: none;
     border-radius: 1.25em;
     outline: none;
@@ -186,14 +189,13 @@ nav ul li a {
   }
   .bt5:hover {
     transform: translateX(-0.5em);
-   
+    
   }
   
 
   .bt5 ion-icon {
     font-size: 1.25em; 
     color: rgb(2, 2, 2);
-      transition: color 0.3s ease;
   }
 
   .bt5 span {
@@ -231,8 +233,8 @@ nav ul li a {
   @media (max-width: 768px) {
     .first {
       flex-direction: column; 
-      text-align: center; 
-        height: 40em;
+      text-align: center;
+      height: 40em;
     }
   
     .p1 {
@@ -242,6 +244,7 @@ nav ul li a {
   
     .bt2 {
       margin: 1em auto; 
+     
     }
   
     .social-icon {
@@ -252,11 +255,17 @@ nav ul li a {
     .section2 p9 {
         display: none;
     }
+
    
     .section2 {
         justify-content: center; 
-       
+      
     }
+
+    .social-icon {
+        margin: 0 15px;
+    }
+   
   }
   
   /* end first section*/
@@ -381,6 +390,16 @@ nav ul li a {
     transform: scale(1.1);
 }
 
+.bt1 ion-icon {
+  font-size: 1.25em; 
+  color: rgb(2, 2, 2);
+}
+
+.bt1 span {
+  font-size: 1em;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 1024px) {
     #pricing {
         padding: 2em 3%;
@@ -448,7 +467,8 @@ nav ul li a {
         width: 80%;
         font-size: 1.1em;
         padding: 1em 2em;
-    }
+    }         
+
 }
 /* endstart pricing*/ 
 
@@ -511,7 +531,21 @@ nav ul li a {
     transition: background-color 0.3s, transform 0.3s;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
     margin-top: 1.5em; 
+  
+
+
 }
+.bt6 span {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  .bt6 ion-icon {
+    font-size: 1.25em; 
+    color: white;
+   
+  }
+
+  
 
 .signals-row1 .bt6:hover {
     background-color: #3578e5;
@@ -743,6 +777,7 @@ transition: 0.4s;
   .bt ion-icon {
     font-size: 1.25em; 
     color: white;
+  }
 
 @media screen and (max-width: 768px) {
     #certificates {
@@ -768,7 +803,6 @@ transition: 0.4s;
         padding: 0.8em 0;
     }
 }
-
 
 
  /* slides last row*/
