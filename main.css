@@ -901,10 +901,12 @@ font-size: 1em;
         margin-top: 0.625em;
     }
     
-    ion-icon {
-        font-size: 44px;
+   ion-icon {
+        font-size:1.95em;
         color: #fff;
+        display: inline-block;
     }
+    
     
     .img-logo {
        display: none;
