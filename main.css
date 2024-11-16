@@ -717,10 +717,10 @@ transition: 0.4s;
 /*slide*/
 .bt {
     width: 12em;
-    color: #000;
+    color: #ffffff;
     font-size: 1em;
     padding: 1em 0;
-    background-color: #fff;
+    background-color: #005d9b;
     border: 0;
     border-radius: 1.25em;
     cursor: pointer;
@@ -730,10 +730,19 @@ transition: 0.4s;
 }
 
 .bt:hover {
-    background-color: #333;
+    background-color: #005d9b;
     color: #fff;
     transform: scale(1.05);
 }
+
+
+  .bt span {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  .bt ion-icon {
+    font-size: 1.25em; 
+    color: white;
 
 @media screen and (max-width: 768px) {
     #certificates {
@@ -761,24 +770,7 @@ transition: 0.4s;
 }
 
 
-.bt{
-    width: 11.25em;
-        color: #000;
-        font-size: 0.75em;
-        padding: 0.75em 0;
-        background-color: #fff;
-        border: 0;
-        border-radius:1.25em;
-        outline: none;
-       cursor: pointer;
-       font-weight: 550;
-margin-top: 0.625em;
-transition: 0.4s;
- }
 
- .bt:hover{
-transform: translate(-0.625em);
- }
  /* slides last row*/
 
 footer{
