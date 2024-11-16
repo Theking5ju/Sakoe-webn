@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Page</title>
+    <link rel="stylesheet" href="support.css">
+</head>
+<body>
+    <div class="support-container">
+        <header class="header">
+            <h1>Support Center</h1>
+            <p>We are here to help. Fill out the form below with your query.</p>
+        </header>
+
+        <section class="contact-section">
+            <h2>Contact Support</h2>
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="9a1803d6-d1c0-437e-8f87-1086d0d47b41">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="query">Query</label>
+                <textarea id="query" name="query" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+
+</body>
+</html>
